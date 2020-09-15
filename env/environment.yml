@@ -1,0 +1,16 @@
+name: azure
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python>=3.8
+- pip
+- jupyter
+- jupyter_contrib_nbextensions
+- pandas
+- matplotlib
+- scikit-learn
+- numpy
+- pip:
+    - azureml-sdk
+    - azureml-sdk[explain,automl]
