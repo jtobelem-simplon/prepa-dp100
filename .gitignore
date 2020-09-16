@@ -2,3 +2,5 @@
 .azureml/
 .config/
 .idea/
+
+*.log
