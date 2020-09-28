@@ -3,7 +3,7 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- python>=3.8
+- python=3.7
 - pip
 - jupyter
 - jupyter_contrib_nbextensions
@@ -13,4 +13,6 @@ dependencies:
 - numpy
 - pip:
     - azureml-sdk
-    - azureml-sdk[explain,automl]
+    - azureml-automl-runtime
+    - azureml-train-automl-runtime
+    - azureml-widgets
