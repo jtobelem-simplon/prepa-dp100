@@ -3,4 +3,6 @@
 .config/
 .idea/
 
+sol/
+
 *.log
