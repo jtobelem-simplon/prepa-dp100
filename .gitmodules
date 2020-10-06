@@ -1,0 +1,3 @@
+[submodule "mslearn-aml-labs"]
+	path = mslearn-aml-labs
+	url = https://github.com/MicrosoftDocs/mslearn-aml-labs.git
