@@ -3,6 +3,6 @@
 .config/
 .idea/
 
-sol/
+# sol/
 
 *.log
